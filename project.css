@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto 20px;
+}
+
+input, textarea, button {
+  margin: 5px 0;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#cardsList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 15px;
+  width: 200px;
+  position: relative;
+}
+
+.card p {
+  margin: 5px 0;
+}
+
+.card .buttons {
+  margin-top: 10px;
+}
+
+.card button {
+  margin-right: 5px;
+  background-color: #f44336;
+}
+
+.card button.edit {
+  background-color: #2196F3;
+}
+
+.card button:hover {
+  opacity: 0.9;
+}
+
+.hidden {
+  display: none;
+}
+
+#studyCard {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 400px;
+  margin: 20px auto;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
